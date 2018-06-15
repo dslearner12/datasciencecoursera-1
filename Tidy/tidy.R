@@ -7,15 +7,15 @@ if(length(inst.packages)) install.packages(inst.packages)
 invisible(lapply(packages, require, character.only = TRUE))
 
 # Read in data frames
-subject_train <- read.table("~/Downloads/UCI/train/subject_train.txt")
-subject_test <- read.table("~/Downloads/UCI/test/subject_test.txt")
-X_train <- read.table("~/Downloads/UCI/train/X_train.txt")
-X_test <- read.table("~/Downloads/UCI/test/X_test.txt")
-y_train <- read.table("~/Downloads/UCI/train/y_train.txt")
-y_test <- read.table("~/Downloads/UCI/test/y_test.txt")
+subject_train <- read.table("train/subject_train.txt")
+subject_test <- read.table("test/subject_test.txt")
+X_train <- read.table("train/X_train.txt")
+X_test <- read.table("test/X_test.txt")
+y_train <- read.table("train/y_train.txt")
+y_test <- read.table("test/y_test.txt")
 
 # Add column names
-featureNames <- read.table("~/Downloads/UCI/features.txt")
+featureNames <- read.table("features.txt")
 names(X_train) <- featureNames[,2]
 names(X_test) <- featureNames[,2]
 names(y_train) <- "Activity"
