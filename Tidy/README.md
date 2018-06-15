@@ -9,8 +9,6 @@ A project requiring [this](http://archive.ics.uci.edu/ml/datasets/Human+Activity
 2. Unzip the file.
 
 3. Move the following files and folders to the same directory as the R script
-	- 'activity_labels.txt'
-	- 'features_info.txt'
 	- 'features.txt'
 	- 'test'
 	- 'train'
@@ -19,6 +17,6 @@ A project requiring [this](http://archive.ics.uci.edu/ml/datasets/Human+Activity
 
 ### Notes
 
-- The output should look like this.
+- The output should look like [this](https://github.com/dkharazi/datasciencecoursera/blob/master/Tidy/tidy.csv "CSV").
 
 - You can read more about the data in the [code book](https://github.com/dkharazi/datasciencecoursera/blob/master/Tidy/CodeBook.md "Code Book").
