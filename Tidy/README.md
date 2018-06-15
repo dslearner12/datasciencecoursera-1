@@ -21,4 +21,4 @@ A project requiring [this](http://archive.ics.uci.edu/ml/datasets/Human+Activity
 
 - The output should look like this.
 
-- You can read more about the data in the [code book](https://github.com/dkharazi/datasciencecoursera/Tidy/CodeBook.md "Code Book").
+- You can read more about the data in the [code book](https://github.com/dkharazi/datasciencecoursera/blob/master/Tidy/CodeBook.md "Code Book").
